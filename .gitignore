@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+.claude/settings.local.json
+.DS_Store
+build/
+
+.env-local
+
+# Eclipse
+.factorypath
+.project
+bin/
