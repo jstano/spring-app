@@ -1,7 +1,14 @@
 rootProject.name = "spring-app"
 
+pluginManagement {
+  repositories {
+    mavenLocal()
+    gradlePluginPortal()
+  }
+}
+
 plugins {
-  id("com.stano.settings") version "0.1.6"
+  id("com.stano.settings") version "0.1.7-SNAPSHOT"
 }
 
 include("adapter-rest-api")
