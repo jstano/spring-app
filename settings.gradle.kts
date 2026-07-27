@@ -8,7 +8,7 @@ pluginManagement {
 }
 
 plugins {
-  id("com.stano.settings") version "0.1.7-SNAPSHOT"
+  id("com.stano.settings") version "0.1.8"
 }
 
 include("adapter-rest-api")
